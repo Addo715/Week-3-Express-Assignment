@@ -6,7 +6,7 @@ import productRoutes from "./routes/productRoutes.js";
 const app = express();
 app.use(express.json());
 
-// Mount each controller on distinct routes
+// Mount each controller on distinct routess
 app.use("/api/users", userRoutes);
 app.use("/api/products", productRoutes);
 
